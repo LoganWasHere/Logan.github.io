@@ -373,7 +373,10 @@ input, select, textarea {
   color: #fff;
   padding: 13px 5px;
   border-radius: 0.5rem;
-  text-align: center;
+  text-align: center;  /* Center the text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* Center the text vertically */
 }
 }
 
