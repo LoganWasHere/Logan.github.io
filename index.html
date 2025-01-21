@@ -26,6 +26,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
+							<button id="changeBackgroundButton">Change Background</button>
 							<span class="fa-solid fa-laptop-code fa-2xl"></span>
 						</div>
 						<div class="content">
@@ -47,6 +48,27 @@
 
 				<!-- Main -->
 					<div id="main">
+<!-- Other HTML content -->
+
+<!-- Your new button -->
+<button id="changeBackgroundButton">Change Background</button>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Your new JavaScript code -->
+<script>
+document.getElementById('changeBackgroundButton').addEventListener('click', function() {
+    document.body.style.backgroundImage = 'url("images/closeup.png")';
+});
+</script>
+
+</body>
+</html>
 
 						<!-- Projects -->
 							<article id="projects">
