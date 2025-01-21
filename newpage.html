@@ -1,11 +1,331 @@
-<!doctype html>
+		<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-<title>Our Funky HTML Page</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
-</head>
-<body>
-Content goes here.
-</body>
+	<head>
+		<title>Logan's Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/b0742f6f57.js" crossorigin="anonymous"></script>
+		  <!-- Open Graph meta tags -->
+		<meta property="og:title" content="Logan's Personal Website">
+  		<meta property="og:description" content="Welcome to Logan's personal website.">
+  		<meta property="og:image" content="images/banner.png">
+  		<meta property="og:url" content="https://loganwashere.github.io">
+		</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="fa-solid fa-laptop-code fa-2xl"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Hello and Welcome</h1>
+								<p>To my personal website</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#blog">Blog</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li> 
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects </h2>
+								<p>This page showcases a collection of projects I have completed or am currently in the process of completing.</p>
+								<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
+								<p><a href="#OTWB">Over The Wire Bandit CTF</a></p>
+								<p><a href="#labs">Labs From Class</a></p>
+								<p><a href="#homelab">Personal Homelab!</a></p>
+							</article>
+						<!-- OTWB -->
+							<article id="OTWB">
+								<h2 class="major">Over The Wire</h2>
+								<h2>have hyperlinks and link them to each levels postion on the page</h2>
+								<p>Welcome to my walkthrough of Over The Wire Bandit. Over The Wire is a CTF type wargame where the user will use the linux terminal to find flags.</p>
+								<p style="color: red;">**Passwords found in this walkthrough may be outdated. Over The Wire occasionally changes passwords and levels!**</p>
+								<hr>
+								<p><h2>Intro: </h2> The goal of this level is for you to log into the server using SSH. To do this we must first open a linux terminal and type in the following command: <br><b>ssh bandit0@bandit.labs.overthewire.org -p 2220</b>.<br>This securely connects to the server address using SSH and the <b>-p</b> is the port! and <b>bandit0</b> is the level</p>
+								<span class="image main"><img src="images/one.png" alt="" /></span> 
+								<p>The password is: <b>bandit0</b></p>
+								<p>Make sure to exit!</p>
+								<hr>
+								<p><h2>Level 0: </h2> First enter the correct ssh adress and enter the password obtained in the last level when prompted too. The password for the this level is stored in a file called readme located in the home directory, to find this we must <b>ls</b> and <b>cat</b> the output,<b> readme</b></p>
+								<span class="image main"><img src="images/two.jpg" alt="" /></span> 
+								<p>Make sure to exit!</p>
+								<hr>
+								<p><h2>Level 1: </h2> First enter the correct ssh adress and enter the password obtained in the last level when prompted too. The password for the this level is stored in a file called <b>-</b> located in the home directory, to find this we must <b>ls</b> and <b>cat</b> the output,<b> ./-</b></p>
+								<span class="image main"><img src="images/level1.png" alt="" /></span>
+								<span class="image main"><img src="images/level1.1.png" alt="" /></span>
+								<p>Make sure to exit!</p>
+								<hr>
+								<p><h2>Level 2:</h2>First enter the correct ssh adress and enter the password obtained in the last level when prompted too. The password for the this level is stored in a file called spaces in this filename located in the home directory, to find this we must <b>ls</b> and <b>cat</b> the output with <b>/</b> after each word </p>
+								<span class="image main"><img src="images/level2.png" alt="" /></span>
+								
+							</article>
+						<!-- Homelab -->
+							<article id="homelab">
+								<h2 class="major">Homelab</h2>
+								<span class="image main"><img src="images/under-construction-warning-sign.jpg" alt="" /></span>
+							</article>
+						<!-- Labs -->
+							<article id="labs">
+   								<h2 class="major">Labs</h2>
+    								<div class="pdf-wrapper">
+
+        							<p><strong>Lab 06: Scripting</strong></p>
+								<iframe src="assets/Personal/lab-06.pdf" width="100%" height="600px" style="margin-bottom: 20px;"></iframe>
+
+								<p><strong>Lab 05: Filtering</strong></p>
+								<iframe src="assets/Personal/lab-05.pdf" width="100%" height="600px" style="margin-bottom: 20px;"></iframe>
+								
+								<p><strong>Lab 03: Navigating</strong></p>
+								<iframe src="assets/Personal/Lab 03– Navigating.pdf" width="100%" height="600px" style="margin-bottom: 20px;"></iframe>
+    								</div>
+							</article>
+						<!-- Blog -->
+							<article id="blog">
+								<h2 class="major">blog</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>1/3/2025... Hello this is my first test post!</p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h1 class="major">About Me</h1>
+								<span class="image main"><img src="images/Headshot.jpg" alt="" /></span>
+								<h2>Logan Weaver</h2>
+      								 <p><strong>Junior at The University of Texas at San Antonio (UTSA)</strong></p>
+       								 <p><strong>Bachelor of Business Administration in Cybersecurity</strong></p>
+       								 <p>Hello! My name is Logan Weaver, and I am currently a junior at the University of Texas at San Antonio, pursuing a Bachelor of Business Administration in Cybersecurity. Throughout my academic journey, I have developed a strong foundation in cybersecurity principles, alongside hands-on experience in Linux systems and programming.</p>
+       								 <p>I am actively involved in several campus organizations, including the Cyber Jedis and the Computer Security Association, where I engage in collaborative learning, problem-solving, and cybersecurity-related initiatives. These clubs, coupled with my coursework, have allowed me to refine both my technical and leadership skills in a dynamic environment.</p>
+       								 <p>In addition to my formal education, I have proactively expanded my knowledge through self-directed learning, focusing on Linux, programming, scripting, and my personal security homelab to stay ahead of industry trends and enhance my problem-solving abilities. My passion for cybersecurity, combined with my academic and extracurricular involvement, drives me to continually grow and pursue opportunities in the field.</p>
+								<a href="assets/resume for website.pdf" download>Download my Resume</a>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<section class="contact-section">
+  								<div class="contact-intro">
+    								<h2 class="contact-title">Get in Touch</h2>
+    								<p class="contact-description">
+      							Fill out the form below and I will get back to you as soon as possible.
+    								</p>
+							  </div>
+							
+							  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+							
+							    <input type="hidden" name="access_key" value="5e540351-0d97-4ab8-bd82-178170a08e0d" />
+							    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+							    <input type="hidden" name="from_name" value="My Website" />
+							    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+							
+							    <div class="form-group-container">
+							      <div class="form-group">
+							        <label for="name" class="form-label">Name</label>
+							        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+							      </div>
+							      <div class="form-group">
+							        <label for="email" class="form-label">Email</label>
+							        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+							      </div>
+							      <div class="form-group">
+							        <label for="message" class="form-label">Message</label>
+							        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+							      </div>
+							    </div>
+							    <button class="form-submit" type="submit">Send Message</button>
+							  </form>
+							
+							</section>
+
+								</form>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
