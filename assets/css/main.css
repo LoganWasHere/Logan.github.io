@@ -97,7 +97,7 @@ input, select, textarea {
 
 	body {
 		 background: #1b1f22 url("../../images/Your paragraph text.png") no-repeat center center fixed;
-		background-size: contain;
+		background-size: cover;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1169,7 +1169,7 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/Your paragraph text.png");
 			background-position: center;
-			background-size: contain;
+			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
